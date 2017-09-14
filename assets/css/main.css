@@ -231,7 +231,7 @@ ul, menu, dir {
         font-size: 9px;
       }
       #contact i {
-        font-size: 20px;
+        padding: 10px;
       }}
     ul.slides li a {
       display: block;
