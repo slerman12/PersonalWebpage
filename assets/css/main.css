@@ -229,6 +229,9 @@ ul, menu, dir {
         width: 50%; }
       body {
         font-size: 9px;
+      }
+      #contact i {
+        font-size: 40px;
       }}
     ul.slides li a {
       display: block;
