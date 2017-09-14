@@ -223,10 +223,14 @@ ul, menu, dir {
 
 @media only screen and (max-width: 1000px) {
       ul.slides li {
-        width: 33%; } }
+        width: 33%; }
+      body {
+        font-size: 10px;
+      }}
     @media only screen and (max-width: 767px) {
       ul.slides li {
-        width: 50%; } }
+        width: 50%; }
+    }
     ul.slides li a {
       display: block;
       width: 100%;
