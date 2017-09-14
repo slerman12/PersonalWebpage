@@ -229,9 +229,6 @@ ul, menu, dir {
         width: 50%; }
       body {
         font-size: 9px;
-      }
-      #contact i {
-        padding: 10px;
       }}
     ul.slides li a {
       display: block;
@@ -276,3 +273,9 @@ ul, menu, dir {
 #contact .mail:hover {
 	color: #f39c12;
 }
+
+@media only screen and (max-width: 767px) {
+  #contact i {
+    font-size: 40px;
+    padding: 10px;
+  }}
