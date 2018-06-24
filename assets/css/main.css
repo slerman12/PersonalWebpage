@@ -6,7 +6,7 @@ body {
   background: #f5f6f7;
   color: #f5f6f7;
   font-size: 20px;
-  line-height: 36px;
+  line-height: 30px;
   text-align: center;
   font-weight: 300; }
 
@@ -44,13 +44,13 @@ hr {
 a:link,
 a:visited,
 a:active {
-  font-weight: 600;
-  color: #f5f6f7;
+  /*font-weight: 600;*/
+  color: #f9ff27;
   text-decoration: none; }
   a:link:hover,
   a:visited:hover,
   a:active:hover {
-    color: #e1e1e1;
+    color: #00ff29;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     -ms-transition: color 1s;
@@ -111,8 +111,13 @@ a:active {
   height: 390px;
   width: 100%;
   position: absolute;
-  top: 50%;
-  margin-top: -195px; }
+  top: 6%;
+  /*margin-top: -195px;*/
+}
+
+p{
+    margin-top: 2%;
+}
 
 .profile-image {
   width: auto;
@@ -133,7 +138,7 @@ a:active {
 
 .down-arrow {
   position: absolute;
-  bottom: 70px;
+  bottom: 5%;
   left: 50%;
   margin-left: -12px;
   width: 25px;
@@ -227,9 +232,24 @@ ul, menu, dir {
     @media only screen and (max-width: 767px) {
       ul.slides li {
         width: 50%; }
+
+        p{
+            margin-top: 5%;
+        }
       body {
-        font-size: 9px;
-      }}
+        font-size: 11px;
+          line-height: 16px;
+      }
+        @media only screen and (max-width: 350px) {
+
+            p{
+                margin-top: 4%;
+            }
+            body {
+                font-size: 10px;
+                line-height: 12px;
+            }}
+    }
     ul.slides li a {
       display: block;
       width: 100%;
